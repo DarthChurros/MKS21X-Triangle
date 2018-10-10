@@ -16,27 +16,27 @@ class Triangle {
   }
 
   public double getPerimeter() {
-    return (v1.distanceTo(v2) + v2.distanceTo(v3) + v3(distanceTo(v1));
+    return (v1.distanceTo(v2) + v2.distanceTo(v3) + v3.distanceTo(v1));
   }
 
   public Point getVertex(int index) {
     switch (index) {
       case 0: return new Point(v1);
-      br;
+      break;
       case 1: return new Point(v2);
-      br;
+      break;
       case 2: return new Point(v3);
-      br;
+      break;
       default: return new Point(0.0, 0.0);
     }
   }
 
-  public setVertex(int index, Point newP) {
+  public void setVertex(int index, Point newP) {
     switch (index) {
       case 0: v1 = newP;
-      br;
+      break;
       case 1: v2 = newP;
-      br;
+      break;
       case 2: v3 = newP;
     }
   }

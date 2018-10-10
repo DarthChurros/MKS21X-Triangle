@@ -8,8 +8,8 @@ class Point {
   }
 
   public Point(Point temp) {
-    x = temp.x
-    y = temp.y
+    x = temp.x;
+    y = temp.y;
   }
 
   public double getX() {
@@ -29,6 +29,6 @@ class Point {
   }
 
   public String toString() {
-    return "(" + x ", " + y + ")";
+    return ("(" + x + ", " + y + ")");
   }
 }

@@ -3,7 +3,7 @@ public class Driver {
     Triangle abc = new Triangle(0.0, 0.0, 3.0, 0.0, 0.0, 4.0);
 
     System.out.println(abc.toString());
-    System.out.println("\nPerimeter: " + abc.getPerimeter())
+    System.out.println("\nPerimeter: " + abc.getPerimeter());
 
     System.out.println("\nVertices: " + abc.getVertex(0).toString() + ", " + abc.getVertex(1).toString() + ", " + abc.getVertex(1).toString());
   }
