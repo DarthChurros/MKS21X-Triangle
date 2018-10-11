@@ -22,13 +22,10 @@ class Triangle {
   public Point getVertex(int index) {
     switch (index) {
       case 0: return new Point(v1);
-      break;
       case 1: return new Point(v2);
-      break;
       case 2: return new Point(v3);
-      break;
-      default: return new Point(0.0, 0.0);
     }
+    return new Point(0.0, 0.0);
   }
 
   public void setVertex(int index, Point newP) {
