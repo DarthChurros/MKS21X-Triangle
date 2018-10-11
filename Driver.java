@@ -5,7 +5,7 @@ public class Driver {
     System.out.println(abc); //should print triangle in format specified on website
     System.out.println("\nPerimeter: " + abc.getPerimeter()); //should be 12.0
 
-    System.out.println("\nVertices: " + abc.getVertex(0) + ", " + abc.getVertex(1) + ", " + abc.getVertex(1)); //should print individual vertices
+    System.out.println("\nVertices: " + abc.getVertex(0) + ", " + abc.getVertex(1) + ", " + abc.getVertex(2)); //should print individual vertices
 
     abc.setVertex(0, new Point(1, 1)); //sets point at the origin to (1,1)
 
